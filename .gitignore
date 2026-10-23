@@ -1,0 +1,94 @@
+# ---- OS ----
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# ---- Editors / IDEs ----
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+
+# ---- Logs / temp ----
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+
+# ---- Node.js ----
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+dist/
+build/
+out/
+.next/
+.nuxt/
+coverage/
+.cache/
+.env
+.env.*
+!.env.example
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# ---- Java / Kotlin / Gradle ----
+*.class
+*.jar
+.gradle/
+build/
+target/
+
+# ---- Go ----
+*.exe
+*.exe~
+*.test
+*.out
+vendor/
+
+# ---- Rust ----
+target/
+Cargo.lock.bak
+
+# ---- C / C++ ----
+*.o
+*.obj
+*.pdb
+*.ilk
+*.a
+*.lib
+
+# ---- Archives / binaries ----
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+*.iso
+
+# ---- Secrets ----
+*.pem
+*.key
+!*.pub
+secrets.*
+credentials.*
